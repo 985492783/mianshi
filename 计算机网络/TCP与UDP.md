@@ -1,12 +1,12 @@
-#计算机网络
-###**menu**
+# 计算机网络
+### **menu**
 * [TCP/UDP区别](#TCP/UDP区别)
   * [TCP可靠性保证](#TCP可靠性保证)
 
 ## TCP/UDP区别
 
 ---
-###<nav style="color: blue">TCP</nav>
+### <nav style="color: blue">TCP</nav>
 
 > ***TPC特点：***  
 > 1.面向连接  
@@ -23,7 +23,7 @@
 
 
 
-##TCP可靠性保证
+## TCP可靠性保证
 
 ---
 > 1.序列化和确认应答信号  
