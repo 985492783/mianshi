@@ -17,7 +17,7 @@
 
 1.TCP结构
 ![图片](../image/TCP结构.jpg)  
-3.流量控制
+3.流量控制  
 通过滑动窗口传输RcvWindow大小，来保证自己的buffer一定不会溢出  
 RcvWindow = RcvBuffer-[LastByteRcvd - LastByteRead]  
 4.拥塞控制  
@@ -25,8 +25,8 @@ RcvWindow = RcvBuffer-[LastByteRcvd - LastByteRead]
 >> MSS(Maximum Segment Size) : 最大报文段长度  
 >> cwnd(congestion window) : 拥塞窗口  
 >> sh(ssthresh) : 慢启动门限制  
->> RTT(Round trip time) : 往返时间
->> ack(Acknowledge) : 确认信号
+>> RTT(Round trip time) : 往返时间  
+>> ack(Acknowledge) : 确认信号  
 > 
 > <nav style="color: blue">原理：</nav>发送方开始发送时，使用慢启动算法，每经过一次RTT拥塞窗口翻倍  
 > <nav style="color: blue">限制：</nav>不能大于sh，如果大于sh后，则开始使用拥塞避免算法，每经过一次RTT只增加一个拥塞窗口，避免指数增长过快  
